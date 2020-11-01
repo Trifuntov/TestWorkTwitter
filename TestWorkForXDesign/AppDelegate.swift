@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TestWorkForXDesign
 //
-//  Created by IgoriOSDev on 01.11.2020.
+//  Created by Igor Trifuntov on 01.11.2020.
 //
 
 import UIKit

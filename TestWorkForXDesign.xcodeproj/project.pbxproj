@@ -14,10 +14,11 @@
 		DEEAE9A1254D30BC00B39F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEAE9A0254D30BC00B39F2B /* Assets.xcassets */; };
 		DEEAE9A4254D30BC00B39F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEAE9A2254D30BC00B39F2B /* LaunchScreen.storyboard */; };
 		DEEAE9AD254D3CA300B39F2B /* TwitterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAE9AC254D3CA300B39F2B /* TwitterApi.swift */; };
-		DEEAE9B6254E761300B39F2B /* TwittStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAE9B5254E761300B39F2B /* TwittStruct.swift */; };
+		DEEAE9B6254E761300B39F2B /* TwittRo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAE9B5254E761300B39F2B /* TwittRo.swift */; };
 		DEEAE9BA254E7A9300B39F2B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAE9B9254E7A9300B39F2B /* Cell.swift */; };
 		DEEAE9E7254ED0B500B39F2B /* EnumForAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAE9E6254ED0B500B39F2B /* EnumForAPI.swift */; };
 		DEEAE9EB254EE46000B39F2B /* ExtentionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAE9EA254EE46000B39F2B /* ExtentionDate.swift */; };
+		DEEAE9F5254F14D400B39F2B /* TokenRo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEAE9F4254F14D400B39F2B /* TokenRo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +31,11 @@
 		DEEAE9A3254D30BC00B39F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEEAE9A5254D30BC00B39F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEEAE9AC254D3CA300B39F2B /* TwitterApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterApi.swift; sourceTree = "<group>"; };
-		DEEAE9B5254E761300B39F2B /* TwittStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwittStruct.swift; sourceTree = "<group>"; };
+		DEEAE9B5254E761300B39F2B /* TwittRo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwittRo.swift; sourceTree = "<group>"; };
 		DEEAE9B9254E7A9300B39F2B /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		DEEAE9E6254ED0B500B39F2B /* EnumForAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumForAPI.swift; sourceTree = "<group>"; };
 		DEEAE9EA254EE46000B39F2B /* ExtentionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionDate.swift; sourceTree = "<group>"; };
+		DEEAE9F4254F14D400B39F2B /* TokenRo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DEBBCDE5254F169D006F2DF6 /* Response Object */ = {
+			isa = PBXGroup;
+			children = (
+				DEEAE9B5254E761300B39F2B /* TwittRo.swift */,
+				DEEAE9F4254F14D400B39F2B /* TokenRo.swift */,
+			);
+			path = "Response Object";
+			sourceTree = "<group>";
+		};
 		DEEAE98B254D30BB00B39F2B = {
 			isa = PBXGroup;
 			children = (
@@ -71,9 +82,9 @@
 				DEEAE99B254D30BB00B39F2B /* ViewController.swift */,
 				DEEAE9B9254E7A9300B39F2B /* Cell.swift */,
 				DEEAE9AC254D3CA300B39F2B /* TwitterApi.swift */,
-				DEEAE9B5254E761300B39F2B /* TwittStruct.swift */,
 				DEEAE9E6254ED0B500B39F2B /* EnumForAPI.swift */,
 				DEEAE9EA254EE46000B39F2B /* ExtentionDate.swift */,
+				DEBBCDE5254F169D006F2DF6 /* Response Object */,
 				DEEAE99D254D30BB00B39F2B /* Main.storyboard */,
 				DEEAE9A0254D30BC00B39F2B /* Assets.xcassets */,
 				DEEAE9A2254D30BC00B39F2B /* LaunchScreen.storyboard */,
@@ -153,12 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEEAE9AD254D3CA300B39F2B /* TwitterApi.swift in Sources */,
-				DEEAE9B6254E761300B39F2B /* TwittStruct.swift in Sources */,
+				DEEAE9B6254E761300B39F2B /* TwittRo.swift in Sources */,
 				DEEAE9EB254EE46000B39F2B /* ExtentionDate.swift in Sources */,
 				DEEAE9E7254ED0B500B39F2B /* EnumForAPI.swift in Sources */,
 				DEEAE99C254D30BB00B39F2B /* ViewController.swift in Sources */,
 				DEEAE9BA254E7A9300B39F2B /* Cell.swift in Sources */,
 				DEEAE998254D30BB00B39F2B /* AppDelegate.swift in Sources */,
+				DEEAE9F5254F14D400B39F2B /* TokenRo.swift in Sources */,
 				DEEAE99A254D30BB00B39F2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestWorkForXDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifuntov.TestWorkForXDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,6 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestWorkForXDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.trifuntov.TestWorkForXDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

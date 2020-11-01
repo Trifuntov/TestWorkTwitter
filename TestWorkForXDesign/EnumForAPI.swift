@@ -2,12 +2,12 @@
 //  enumForAPI.swift
 //  TestWorkForXDesign
 //
-//  Created by IgoriOSDev on 01.11.2020.
+//  Created by Igor Trifuntov on 01.11.2020.
 //
 
 import Foundation
 
-enum constant: String {
+enum Constant: String {
     case consumerKey = "tXELD586Hvg0bnDW3ysAHH1wd"
     case consumerSecret = "0ExKoMALDsaCzX21Hb2Jx4wh4OVAtrWoYMkBIwFHt9TCCYcXJy"
     case authUrl = "https://api.twitter.com/oauth2/token"
