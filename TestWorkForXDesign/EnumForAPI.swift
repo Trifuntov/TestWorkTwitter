@@ -14,4 +14,3 @@ enum Constant: String {
     case apiTwitter = "https://api.twitter.com/1.1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=%@&count=25"
     case nameAccount = "RT_russian"
 }
-

@@ -47,16 +47,3 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         return "@" + Constant.nameAccount.rawValue
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
